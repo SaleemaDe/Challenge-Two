@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(230, 180, 189); 
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    text-align: left;
+    margin: 20px;
+    padding-bottom: 50px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-flex;
+    margin-right:  70px;
+}
+
+nav a:hover{
+        color: aliceblue;
+}
+
+.flex-container{
+    display:flexbox;
+}
+
+#Head-About,
+#Head-Work,
+#Head-Contact {
+    font-size: large;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.Img-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Img-card img{
+    height: 200px;
+    width: 300px;
+}
+
+.Img-card,
+.About-card, 
+.Work-card,
+.Contact-card{
+    margin: 10px 50px;
+    padding: 15px;
+    text-align:justify;
+    border: 5px solid rgb(116, 19, 19);
+}
+.Contact-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.Footer h4{
+   margin-bottom: 15px;
+}
+
+.Footer{
+    background-image: url(../images/_original.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: small;
+    padding: 15px;
+}
+
+
+
+
+
+
+  
+
+
+
+
+
