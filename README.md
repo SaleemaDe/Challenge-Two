@@ -1,11 +1,17 @@
-# Challenge-Two: Creating a web application
+# Challenge-Two: Creating a web application-Portfolio Page
 
-## Portfolio Page
+## Description
 
-### User Story
-> I WANT to view a potential employee's deployed portfolio of work samples
-> SO THAT I can review samples of their work and assess wheater they're a good candidate for an open position
+This is code used (HTML & CSS) to create my online portfolio to showcase my work, skills, and myself to future employers.
 
+## Links
+
+Check it out through GitHUb (under SaleemaDe/Challenge-Two): https://github.com/SaleemaDe
+Check it out: http://127.0.0.1:5500/index.html
+
+![Saleema-headshot](image.png) 
+
+-------------------------------------------------------------------------
 ### Acceptance Criteria
 > GIVEN I need to sample a potential employee's previous work
 
