@@ -1,9 +1,8 @@
-*{
+* {
     box-sizing: border-box;
-    background-color: rgb(230, 180, 189); 
+    color: black;
     padding: 0px;
     margin: 0px;
-    color: black;
     text-decoration: none;
 }
 
@@ -13,95 +12,118 @@ header {
     padding-bottom: 50px;
 }
 
-.navbar{
+.Head-Img {
+    background-image: url(../images/pink\ camo.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-transform: uppercase;
-    font-size: large;
+    font-size: x-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing: 2px;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
     display: inline-flex;
-    margin-right:  70px;
+    margin-right: 70px;
 }
 
-nav a:hover{
-        color: aliceblue;
+nav a:hover {
+    color: white;
 }
 
-.flex-container{
-    display:flexbox;
-}
-
-#Head-About,
-#Head-Work,
-#Head-Contact {
-    font-size: large;
-    margin-left: 20px;
-    margin-top: 100px;
-}
-
-.Img-card{
+/* moving the textof me to same line as the image */
+.Img-card {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: end;
+    flex-direction: row;
+    justify-content: space-evenly;    
 }
 
-.Img-card img{
+.flex-container {
+    display: flexbox;
+}
+
+/* headshot of me, targeting the image itself */
+.Img-card img {
     height: 300;
     width: 200px;
+    border: 2px solid maroon;
+    border-style: dashed;
 }
 
-.About-card, 
-.Work-card{
-    margin: 10px 50px;
-    padding: 15px;
-    text-align:justify;
-    border: 5px solid rgb(116, 19, 19);
+/* Image for selecting the application */
+.Work-card img {
+    display: flex;
+    border-style: groove;
+    border-color: maroon;
+    height: 300px;
+    width: 600px;
 }
 
-.Contact-card{
-    margin: 10px 50px;
-    padding: 15px;
-    text-align:justify;
-}
-
-
-.Contact-card{
+/* Similar properties for each card section */
+.About-card,
+.Work-card,
+.Contact-card {
+    padding: 30px;
+    text-align: left;
+    background-color: rgb(230, 180, 189);
+    text-align: justify;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
-
-.Footer h4{
-   margin-bottom: 15px;
+.About-card p {
+    font-size: large;
+    padding-top: 20px;
+    padding-left: 10px;
+    text-align: left;
 }
 
-.Footer{
-    background-image: url(../images/_original.jpg);
+.Work-card p {
+    padding: 5px;
+    font-style: italic;
+}
+
+.Contact-card p {
+    line-height: 65px;
+    text-align: center;
+    font-size: large;
+}
+
+.Information a:hover {
+    color: white;
+}
+
+.Information {
+    line-height: 50px;
+    text-align: center;
+    word-spacing: 200px;
+    font-size: large;
+    letter-spacing: 1px;
+    font-family: fantasy;
+}
+
+.Footer h4 {
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.Footer {
+    background-image: url(../images/pink\ camo.png);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    font-size: small;
+    font-size: medium;
     padding: 15px;
 }
-
-
-
-
-
-
-  
-
-
-
-
-

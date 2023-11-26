@@ -1,4 +1,5 @@
-# Challenge-Two: Creating a web application-Portfolio Page
+# Challenge-Two: 
+## Creating a web application-Portfolio Page
 
 ## Description
 
@@ -7,35 +8,19 @@ This is code used (HTML & CSS) to create my online portfolio to showcase my work
 ## Links
 
 Check it out through GitHUb (under SaleemaDe/Challenge-Two): https://github.com/SaleemaDe
-Check it out: http://127.0.0.1:5500/index.html
 
-![Saleema-headshot](image.png) 
+View Portfolio: http://127.0.0.1:5500/index.html
+
+![portfolio-site-screenshot](image-1.png) 
 
 -------------------------------------------------------------------------
-### Acceptance Criteria
-> GIVEN I need to sample a potential employee's previous work
+### Breakdown Of Acceptance Criteria
 
-> WHEN I load their portfolio
+> Show previous work in protfolio and through an img that can be selected then directed to the GitHub repo. 
 
-> THEN I am presented with the developer's name, a recent photo or avatar, and 
-links to sections about them, their work, and how to contact them
+> Have links in navigation working along with ways to contact
 
-> WHEN I click one of the links in the navigation
+> Image of myself
 
-> THEN the UI scrolls to the corresponding section
+> Screen is able to resize/adjust accordingly to any device
 
-> WHEN I click on the link to the section about their work
-
-> THEN the UI scrolls to a section with titled images of the developer's applications
-
-> WHEN I am presented with the developer's first application
-
-> THEN that application's image should be larger in size than the others
-
-> WHEN I click on the images of the applications
-
-> THEN I am taken to that deployed application
-
-> WHEN I resize the page or view the site on various screens and devices
-
-> THEN I am presented with a responsive layout that adapts to my viewport
